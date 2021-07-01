@@ -10,9 +10,9 @@
     // }
    $products = [
     ['name'=>'Product1','price'=>10],
-    ['name'=>'Product2','price'=>20],
-    ['name'=>'Product3','price'=>30],
-    ['name'=>'Product4','price'=>40],
+    ['name'=>'Product2','price'=>5],
+    ['name'=>'Product3','price'=>3],
+    ['name'=>'Product4','price'=>70],
    ];
     // foreach($products as $product){
     //     echo $product['name'].' - '.$product['price'];
@@ -28,6 +28,17 @@
     //     $i++;
     // }
     
+    // foreach($products as $product){
+    //     if($product['price']  < 20){
+    //         echo $product['name'].' - '.$product['price'].' if block';
+    //         echo '<br/>';
+    //     }
+    //     else{
+    //         echo $product['name'].' - '.$product['price'];
+    //         echo '<br/>';
+
+    //     }
+    // }
 ?>
 
 <!DOCTYPE html>
@@ -45,6 +56,13 @@
             <h3><?php echo $product['name'];?></h3>
             <h3><?php echo $product['price'];?></h3>
         <?php } ?>
+    </ul>
+    <ul>
+        <?php foreach($products as $product){ ?>
+            <?php if($product['price'] >5){ ?>
+                <li><?php echo $product['name'];?></li>
+            <?php } ?>
+        <?php } ?>    
     </ul>
 </body>
 </html>
