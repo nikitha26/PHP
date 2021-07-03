@@ -8,8 +8,10 @@
         }
         .brand-text{
           color:#23998E !important;
-          font-size:30px !important;
+          font-size:40px !important;
           font-weight:600px !important;
+          background-color:blue !important;
+          
         }
         form{
             max-width:460px;
