@@ -10,7 +10,7 @@
           color:#23998E !important;
           font-size:40px !important;
           font-weight:600px !important;
-          background-color:blue !important;
+         
           
         }
         form{
@@ -24,9 +24,9 @@
     <!-- <p>Hiii</p> -->
     <nav class="white z-depth-0">
         <div class="container">
-            <a href="#" class="brand-logo brand-text">TODO APP</a>
+            <a href="index.php" class="brand-logo brand-text">TODO APP</a>
             <ul id="nav-mobile" class="right hide-on-small-and-down">
-                <li><a href="#" class="btn add-btn z-depth-0">ADD TODO</a></li>
+                <li><a href="add.php" class="btn add-btn z-depth-0">ADD TODO</a></li>
             </ul>
         </div>
     </nav>
