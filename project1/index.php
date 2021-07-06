@@ -25,11 +25,11 @@
     <div class="container">
         <div class="row">
             <?php foreach($todos as $todo) { ?>
-                <div class="col s6 md3">
+                <div class="col s4 md2">
                     <div class="card">
                         <div class="card-content center">
-                            <h6><?php echo htmlspecialchars($todo['title']);?></h6>
-                            <h6><?php echo htmlspecialchars($todo['email']);?></h5>
+                            <h5><?php echo htmlspecialchars($todo['title']);?></h5>
+                            <h6><?php echo htmlspecialchars($todo['email']);?></h6>
                             <ul>
                                 <?php foreach(explode(',',$todo['todo']) as $ing){ ?>
                                 <li><?php echo htmlspecialchars($ing)?></li>
