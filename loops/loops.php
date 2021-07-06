@@ -1,6 +1,5 @@
 <?php
-    //Loops
-    //For Loops
+    //For Loop
     $names = ['John','Jo','Mushii','Rock'];
     //  for($i = 0;$i < count($names);$i++){
     //      echo $names[$i] . '<br/>';
@@ -20,14 +19,20 @@
     // }
 
     // While loop
-
     // $i = 0;
     // while($i < count($products)){
     //     echo $products[$i]['name'];
     //     echo '<br/>';
     //     $i++;
     // }
-    
+
+    //do while
+     $x = 1;
+     do{
+         echo "The number is $x </br>";
+         $x++;
+     }while($x < 5);
+
     // foreach($products as $product){
     //     if($product['price']  < 20){
     //         echo $product['name'].' - '.$product['price'].' if block';

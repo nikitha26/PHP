@@ -37,7 +37,7 @@
                             </ul>
                         </div>
                         <div class="card-action right-align">
-                            <a href="" class="">More info</a>
+                            <a href="detail.php?id=<?php echo $todo['id'];?>" class="">More info</a>
                         </div>
                     </div>
                 </div>

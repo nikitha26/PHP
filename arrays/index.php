@@ -23,9 +23,10 @@
     $multi = [
         ['rock','roy',10],
         ['john',20,'jimmy'],
-        ['ligesi','moun','jibbi',30]
+        ['ligesi','moun','jo',30]
     ];
-    print_r($multi[0][0]);
+    //print_r($multi[0][0]);
+
 ?>
 
 <!DOCTYPE html>
