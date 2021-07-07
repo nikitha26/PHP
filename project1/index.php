@@ -16,7 +16,6 @@
    //close connection
    mysqli_close($conn);
    //print_r($todo);
-   
 
 ?>
 <!DOCTYPE html>
