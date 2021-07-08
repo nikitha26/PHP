@@ -6,10 +6,10 @@
 
    //make query & get result
    $result = mysqli_query($conn,$sql);
-
+   
    //fetch the resulting rows and as an array
    $todos = mysqli_fetch_all($result, MYSQLI_ASSOC);
-
+   
    //free result from memory
    mysqli_free_result($result);
 
