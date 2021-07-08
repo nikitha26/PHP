@@ -1,0 +1,5 @@
+To render terrain in 3D, you need a triangular mesh — a set of 3D triangles 
+representing the surface. The easiest way to get one from height data is a uniform 
+grid (two triangles per pixel), but that's a lot of triangles. For fast rendering, 
+we want to reduce this amount by adapting the mesh to the surface — using bigger 
+triangles in relatively smooth areas, and smaller ones where there's a lot of detail.

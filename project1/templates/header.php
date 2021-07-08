@@ -27,6 +27,7 @@
             <a href="index.php" class="brand-logo brand-text">TODO APP</a>
             <ul id="nav-mobile" class="right hide-on-small-and-down">
                 <li><a href="add.php" class="btn add-btn z-depth-0">ADD TODO</a></li>
+                <!-- <li>Hello <?php echo  $title = $_POST['title'];?></li> -->
             </ul>
         </div>
     </nav>

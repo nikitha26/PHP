@@ -50,6 +50,7 @@
              //Save to db and check
              if(mysqli_query($conn,$sql)){
                 //Redirect to index page
+                
                 header('Location:index.php');
              }
              else{
