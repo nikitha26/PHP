@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+    <!-- <note>
+    <to>Tove</to>
+    <from>Jani</from>
+    <heading>Reminder</heading>
+    <body>Don't forget me this weekend!</body>
+    </note> -->
+    <bookstore>
+        <book category="children">
+            <title lang="en">Maths</title>
+            <author>Rs Agarwal</author>
+            <year>2005</year>
+            <price>300.00</price>
+        </book>
+        <book category="science">
+            <title lang="en">Science</title>
+            <author>Ram</author>
+            <year>2001</year>
+            <price>200.00</price>
+        </book>
+        <book category="maths">
+            <title lang="en">Maths Algebra</title>
+            <author>Rs Agarwal</author>
+            <year>2008</year>
+            <price>400.00</price>
+        </book>
+    </bookstore>
