@@ -2,7 +2,7 @@
    include('config/dbconnect.php');
 
    //query for all records
-   $sql = 'SELECT * FROM todo';
+   $sql = 'SELECT * FROM todo ORDER BY title';
 
    //make query & get result
    $result = mysqli_query($conn,$sql);

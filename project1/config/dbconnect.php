@@ -5,7 +5,7 @@
 
     //Check connection
     if(!$conn){
-        echo 'Connection error';
+        echo 'Connection error'.mysqli_connect_error();
     }
     
 ?>

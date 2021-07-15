@@ -15,6 +15,18 @@
        }
    }
 
+   //Update the Todo in Database
+//    if(isset($_POST['update'])){
+//        $todo_update = mysqli_real_escape_string($conn,$_POST['todo_update']);
+
+//        $sql = "UPDATE todo SET todo = 'go to temple' WHERE todo = $todo_update";
+//        if(mysqli_query($conn,$sql)){
+//            header('Location:add.php');
+//        }
+//        else{
+//            echo 'query error: '.mysqli_error($conn);
+//        }
+//    }
 
   //Check get request from id parameter
   if(isset($_GET['id'])){
@@ -57,6 +69,8 @@
                         <form action="detail.php" method="POST">
                             <input type="hidden" name="id_to_delete" value="<?php echo $todo['id'];?>">
                             <input type="submit" name="delete" value="Delete" class="btn " style="background-color:rgb(199, 67, 44);color:white">
+                            <!-- <input type="hidden" name="todo_update" value="<?php echo $todo['todo'];?>">
+                            <input type="submit" name="update" value="Update" class="btn " style="background-color:blue;color:white"> -->
                         </form>
                         
                     </div>
