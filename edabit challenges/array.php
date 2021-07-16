@@ -97,5 +97,19 @@
            echo $len * $a;
        }
    }
-   MultiplyByLength([1,2,3])
+   //MultiplyByLength([1,2,3])
+
+
+   //Is string odd or even
+   function oddorEven($a){
+     $count = strlen($a);
+     //echo $count;
+     if($count%2 == 0){
+          echo "true";
+     }
+     else{
+         echo "false";
+     }
+   }
+   oddorEven("apple")
 ?>

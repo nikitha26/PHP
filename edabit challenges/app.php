@@ -65,11 +65,5 @@
     }
    //four(["Tomato", "Potato", "Pair"])
 
-   //Capitalize the names
-    function Capitalize($arrys){
-        
-
-    }
-    Capitalize(["mavis", "senaida", "letty"])
 
 ?>
